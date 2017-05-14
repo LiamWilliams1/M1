@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 10px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=submit] {
+            background-color: darkgoldenrod;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: large;
+        }
+
+        input[type=submit]:hover {
+            background-color:olivedrab;
+        }
+
+        .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        h3{
+            color: darkgoldenrod;
+        }
+        body{
+            color: darkblue;
+            font-family: "intel-clear-light", Arial, Verdana, Helvetica, sans-serif;
+            font-size: large;
+        }
+
+    </style>
+</head>
+<body>
+
+ <p> <div>
+    Barrier Reef Orchestra </div>
+    PO Box 576, Townsville  Qld  4810
+
+</p>
+  <p> <div> <strong> Phone:</strong> +61 7 47 222 789 </div>
+      <strong> Email:</strong> brotownsville@gmail.com</p>
+
+<h3> Send us a message</h3>
+
+<div class="container">
+    <form action="/action_page.php">
+        <label><b>Your Name (required)</b></label>
+        <input type="text" placeholder="Enter Name" name=" name" required>
+
+        <label><b> Your Email (required)</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label><b>Subject</b></label>
+        <input type="text" placeholder="Subject" name=" Subject" required>
+
+
+        <label><b>Message</b></label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Send">
+    </form>
+</div>
+
+</body>
+</html>
