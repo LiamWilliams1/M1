@@ -1,0 +1,351 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    font-size: x-large;
+}
+
+p{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding:0px;
+}
+
+#wrapper{
+    border: solid gray;
+    padding: 10px;
+    width: 100%;
+    height: 1200px;
+}
+#top{
+    height: 100px;
+    width:100%;
+    font-size:larger;
+}
+
+
+#box{
+    border: 1px solid;
+    margin-top: 10px;
+    width:100%;
+
+
+
+}
+
+#side{
+    width: 50%;
+    float: left;
+    display: block;
+    margin-left: 10px;
+
+
+}
+#main {
+    display: block;
+    width: 50%;
+    float: right;
+    margin-top: 0px;
+
+}
+
+#bottom{
+    border:1px solid;
+    width: 100%;
+    font-size: x-large;
+    text-align: center;
+}
+
+
+#header1{
+    display: block;
+    margin: 0 auto;
+ align-content:center;
+}
+
+
+.container {
+    width: 70%;
+    background-color: #ffffff;
+    min-height: 800px;
+    float: right;
+    margin-right: 10%;
+    margin-top: 60px;
+}
+.bold_heading {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial;
+
+}
+
+
+/* GRIDS FOR CONTAINER */
+
+
+.container_left_grid {
+    width: 30%;
+    background-color: #eeeeee;
+    float:left;
+    min-height: 400px;
+}
+.container_middle_grid {
+    width: 40%;
+    background-color: #dddddd;
+    float: left;
+    min-height: 400px;
+}
+.container_second_middle_grid {
+    width: 30%;
+    background-color: #eeeeee;
+    float: left;
+    min-height: 400px;
+}
+
+
+/* END OF CONTAINER GRIDS */
+
+
+
+/* Container sections for content (paragraphs, etc.) */
+
+
+.artist_profile {
+    width: 60%;
+    background-color: #ffffff;
+    float: left;
+    margin: 10px 10px 0px 0px;
+    padding: 5px 5px 5px 5px;
+
+}
+.artist_picture {
+    float: left;
+    margin: 10px 10px 10px 10px;
+
+}
+
+
+#nav {
+    background-color: darkblue;
+    position: fixed;
+    width: 100%;
+    margin-left: 0;
+    min-height: 5%;
+}
+#nav_wrapper {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 32px;
+    text-align: center;
+    background-color: darkblue;
+
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li:hover {
+    background-color: #5a78ff;
+    color: white;
+}
+#nav ul li a {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#nav ul li a:visited {
+    text-decoration: none;
+}
+
+#logo {
+    width: 11%;
+    float: left;
+    background-color: #ffffff;
+    margin-top: 60px;
+    margin-left: 9%;
+}
+
+
+
+
+.register {
+    font-size: xx-large;
+    font-weight: 800;
+    background-color:deepskyblue;
+    color:darkred;
+    text-decoration: none;
+    float: left;
+
+}
+
+.move{
+    font-size: xx-large;
+    font-weight: 800;
+    background-color:darkgoldenrod;
+    color:darkred;
+    margin: 0px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+
+/* sign up form code*/
+/* Full-width input fields */
+input[type=text], input[type=email]
+{
+    width: 80%;
+    padding: 7px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+/* Float signup buttons and add an equal width */
+.signupbtn {
+    float: right;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container1 {
+    padding: 11px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+
+}
+
+#container1 {
+    border: 1px solid;
+    margin-top: 10px;
+    width: 85%;
+    height: 200px;
+    margin-left: 150px;
+    margin-right: 100px;
+    background-color: #00a0d1;
+}
+
+.header{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    align-content: center
+}
+.banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #16DCDF;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color:darkgoldenrod ;
+}
+
+
+.containerright{
+    width: 30%;
+    float: right;
+    overflow: auto;
+}
+.containerleft {
+    float: left;
+    width: 50%;
+    overflow: auto;
+    margin-left: 5%
+}
+
+#copyright {
+    background-color: deepskyblue;
+    text-align: center;
+}
+
+.gridmain1{
+    display: block;
+    width:50%;
+    margin: 10px;
+    margin-left: 50px;
+    float: left;
+}
+
+.gridmain2{
+    display: block;
+    width:50%;
+    margin: 10px;
+    margin-left: 100px;
+    overflow: hidden;
+    clear: both;
+    float: right;
+
+
+}
+
+.subgrid1{
+    display: block;
+    width:25%;
+    margin: 10px;
+    float: left;
+
+}
+
+.subgrid2{
+    display: block;
+    width:25%;
+    margin: 10px;
+    float: right;
+
+}
+.newsfeedcontainer{
+    width:75%;
+    overflow: auto;
+    margin-left: 15%;
+    margin-top: 2%
+
+}       
+.newsfeedheading{
+    font-size: 19px;
+    font-family: fantasy;
+    color: #3B6261
+}
+.newsfeedtext{
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    font-weight: lighter;
+}
+
