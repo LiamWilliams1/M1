@@ -419,4 +419,12 @@ tr:nth-child(even) {
     overflow: auto;
 }
 
+.ImageTextLeft {
+	margin-left: 15%;
+	margin-right: 65%;
+}
 
+.ImageTextRight {
+	margin-right: 15%;
+	margin-left: 55%;
+}
