@@ -393,7 +393,7 @@ input[type=text], input[type=email]
     margin-left: 5%;
 }
 .buttondonate {
-    margin-left: 5%
+    
 }
 		/*Artist_Page_CSS*/
 		
@@ -418,3 +418,5 @@ tr:nth-child(even) {
     float: right;
     overflow: auto;
 }
+
+
