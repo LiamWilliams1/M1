@@ -390,11 +390,9 @@ input[type=text], input[type=email]
     float: left;
     width: 40%;
     overflow: auto;
-<<<<<<< HEAD
     margin-left: 5%;
 }
 .buttondonate{}
-=======
     margin-left: 5%
 }
 		/*Artist_Page_CSS*/
@@ -420,4 +418,3 @@ tr:nth-child(even) {
     float: right;
     overflow: auto;
 }
->>>>>>> origin/master
