@@ -259,7 +259,10 @@ input[type=text], input[type=email]
     margin-right: auto;
 
 }
-    /--navigationbar--/
+
+    /*navigationbar*/
+
+
 .nav{
     font-size: 20px;
     font-family: 'Arial', sans-serif;
@@ -289,7 +292,8 @@ input[type=text], input[type=email]
     color: white
 }
 .nav > li > a:hover{
-    background-color:  color: darkgoldenrod;
+    background-color: darkgoldenrod
+	color: ;
 }
 
 
@@ -346,7 +350,10 @@ input[type=text], input[type=email]
     float: right;
 
 }
-    /--newsfeedpage--/
+
+    /*newsfeedpage*/
+
+
 .newsfeedcontainer{
     width:75%;
     overflow: auto;
@@ -364,7 +371,9 @@ input[type=text], input[type=email]
     font-family: 'Arial', sans-serif;
     font-weight: lighter;
 }
-   /--donationpage--/
+
+   /*donationpage*/
+
 .donationlist{
     list-style: none;
     font-size: 14px;
@@ -389,7 +398,7 @@ input[type=text], input[type=email]
 =======
     margin-left: 5%
 }
-		/--Artist_Page_CSS--\
+		/*Artist_Page_CSS*/
 		
 table {
     font-family: arial, sans-serif;
