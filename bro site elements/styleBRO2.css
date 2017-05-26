@@ -420,11 +420,20 @@ tr:nth-child(even) {
 }
 
 .ImageTextLeft {
-	margin-left: 15%;
-	margin-right: 65%;
+	margin-left: 10%;
+	
 }
 
 .ImageTextRight {
 	margin-right: 15%;
 	margin-left: 55%;
+}
+
+
+    /* People Pages CSS */
+
+
+.ImgPos {
+    margin-left: 25%;
+    margin-right: 10%;
 }
