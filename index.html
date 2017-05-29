@@ -7,46 +7,43 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="style.css" rel="stylesheet" type="text/css">
 
-    <style>
-        #box> p{
-            text-align: center;
-
-        }
-        body{
-            margin-left: 30px;
-            margin-right: 30px;
-        }
-    </style>
-    <link href="bro site elements/styleBRO2.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-<header class="header">
-       <a href="index.html">
-        <img class="banner" src="bro site elements/BROHeaderFinal.png" alt= "Barrier reef orchestra"></a>
-    </header>
-    <div>
-         <ul class="nav">
-           <li><a href="index.html">HOME</a></li>
-            <li><a href="bro site elements/historypage.html">ABOUT US</a></li>
-            <li><a href="donation.html">SUPPORT US</a></li>
-            <li><a href="contact.html">CONTACT US</a></li>
-            <li><a href="testNewsfeed.html">NEWSFEED</a></li>
-            <li><a href="bro site elements/artistpage.html">ARTIST</a></li> 
-        </ul>
-    </div>
+<header class="header1">
+    <a href="index.html">
+        <img class="banner" src="images/broheaderfinal.png"  alt= "logo" ></a>
+</header>
+<div>
+    <ul class="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Artists</a></li>
+        <li><a href="concerts.html">Concerts</a></li>
+        <li><a href="#">Support us</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="#">Newsfeed</a></li>
+
+    </ul>
+</div>
 
 
 <div id="box">
-    <p>
-        The Barrier Reef Orchestra (BRO) launches its 17th year of performing orchestral music through North Queensland. BRO is a community orchestra consisting of the finest musicians drawn from Townsville and as far afield as Cairns and Mackay.
-<p/>
+
+    <p class="centered">
+        The Barrier Reef Orchestra(BRO)is a community orchestra consisting of the finest musicians drawn from Townsville and as far afield as Cairns and Mackay. This year, BRO launches its 17th year of performing orchestral music through North Queensland.
+
+    <p/>
+
      <div class="container_left_grid">
          <a href="notice.html">
 
              <img id="header1" src="images/Notice-of-AGM.jpg" width="100%" height="400px" alt="Upcoming concert flyer">
          </a>
-
+         <h1 class="universalheading"> Upcoming Concert </h1>
+         <div>
+             <img src="images/Queens-Gardens-2017.jpg"width="100%" align=" middle " alt=" Flyer">
+         </div>
      </div>
 
     <div class="container_middle_grid">
@@ -65,6 +62,31 @@
             <img class="mySlides" src="images/stringsandwind.jpg" style="width:100%">
             <img class="mySlides" src="images/orchestraworlm.jpg" style="width:100%">
 
+
+
+            <div class="content">
+
+                <h1 class="universalheading"> Contact us </h1>
+
+                <form action="submission.html">
+                    <label><b>Your Name (required)</b></label>
+                    <input type="text" placeholder="Enter Name" name=" name" required>
+
+                    <label><b> Your Email (required)</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+
+                    <label><b>Subject</b></label>
+                    <input type="text" placeholder="Subject" name=" Subject" required>
+
+
+                    <label><b>Message</b></label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                    <a href="submission.html">
+                        <input type="submit" value="Send">
+                    </a>
+                </form>
+            </div>
 
         </div>
 
@@ -85,12 +107,8 @@
             }
         </script>
 
-        <button class="move" type="button"> <a href="contact.html">  Contact us </a>
-        </button>
-
 
     </div>
-
 
     <div class="container_second_middle_grid">
 
@@ -100,10 +118,12 @@
 
     <button class="register" type="button"> <a href= "#"> Donate </a>
     </button>
+
+
+
 </div>
 
-
-
+        <img src="images/LeahLi250.jpg" align= "middle" width="82%"alt="Leah's picture">
 
 
         <div id="fb-root"></div>
@@ -122,16 +142,14 @@
     </div>
 
 
-
-
     <div id="bottom">
-        <img src="bro site elements/Sponsorspic.PNG" width="100%" alt="sponsors photo">
+        <img src="images/Sponsors%20pic.PNG" width="100%" alt="sponsors photo">
 
-        <p id="copyright"> © Copyright North Queensland Ensembles Inc. 2017</p>
+        <p id="copyright"> &#169;Copyright North Queensland Ensembles Inc. 2017</p>
 
     </div>
-	</p>
-	</div>
+
+</div>
 
 </body>
 </html>
