@@ -1,8 +1,17 @@
+
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <title>Barrier Reef Orchestra</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="style.css" rel="stylesheet" type="text/css">
 
     <style>
+
+
         input[type=text], select, textarea {
             width: 100%;
             padding: 10px;
@@ -27,53 +36,111 @@
         input[type=submit]:hover {
             background-color:olivedrab;
         }
-
-        .container {
-            border-radius: 5px;
-            background-color: #f2f2f2;
-            padding: 20px;
-        }
         h3{
             color: darkgoldenrod;
         }
-        body{
+        body {
             color: darkblue;
-            font-family: "intel-clear-light", Arial, Verdana, Helvetica, sans-serif;
-            font-size: large;
+            margin-left: 50px;
         }
 
     </style>
 </head>
+
+
 <body>
+<header class="header1">
+    <a href="index.html">
+        <img class="banner" src="images/broheaderfinal.png"  alt= "logo" ></a>
+</header>
+<div>
+    <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Artists</a></li>
+        <li><a href="concerts.html"> Concerts</a></li>
+        <li><a href="#">Support us</a></li>
+        <li><a href="#">Newsfeed</a></li>
 
- <p> <div>
-    Barrier Reef Orchestra </div>
-    PO Box 576, Townsville  Qld  4810
-
-</p>
-  <p> <div> <strong> Phone:</strong> +61 7 47 222 789 </div>
-      <strong> Email:</strong> brotownsville@gmail.com</p>
-
-<h3> Send us a message</h3>
-
-<div class="container">
-    <form action="/action_page.php">
-        <label><b>Your Name (required)</b></label>
-        <input type="text" placeholder="Enter Name" name=" name" required>
-
-        <label><b> Your Email (required)</b></label>
-        <input type="text" placeholder="Enter Email" name="email" required>
-
-        <label><b>Subject</b></label>
-        <input type="text" placeholder="Subject" name=" Subject" required>
-
-
-        <label><b>Message</b></label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-        <input type="submit" value="Send">
-    </form>
+    </ul>
 </div>
+
+
+<div id="box">
+    <div id="side">
+        <p> <div>
+        Barrier Reef Orchestra </div>
+        PO Box 576, Townsville  Qld  4810
+
+        </p>
+        <p> <div> <strong> Phone:</strong> +61 7 47 222 789 </div>
+        <strong> Email:</strong> brotownsville@gmail.com</p>
+
+        <h3> Send us a message</h3>
+
+        <div class="content">
+            <form action="submission.html">
+                <label><b>Your Name (required)</b></label>
+                <input type="text" placeholder="Enter Name" name=" name" required>
+
+                <label><b> Your Email (required)</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label><b>Subject</b></label>
+                <input type="text" placeholder="Subject" name=" Subject" required>
+
+
+                <label><b>Message</b></label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                   <input type="submit" value="Send">
+
+            </form>
+        </div>
+    </div>
+
+    <div id="main" >
+
+
+
+
+            <button class="register" type="button"> <a href="images/Membership-Form.pdf"> Join </a>
+            </button>
+
+            <button class="register" type="button"> <a href= "#"> Donate </a>
+            </button>
+
+
+<div class="leftfloat">
+        <img src="images/LeahLi250.jpg" align= "middle" width="200" height="300" alt="Artist photo">
+</div>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+        <div id= leftpad class="fb-page" data-href="https://www.facebook.com/nqorchestra/" data-tabs="timeline" data-width="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/nqorchestra/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/nqorchestra/">Barrier Reef Orchestra</a></blockquote></div>
+
+    </div>
+
+
+</div>
+
+
+
+<div id="bottom">
+    <img src="images/Sponsors%20pic.PNG" width="100%" alt="sponsors photo">
+
+    <p id="copyright"> &#169; Copyright North Queensland Ensembles Inc. 2017</p>
+
+</div>
+
 
 </body>
 </html>

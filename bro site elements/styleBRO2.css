@@ -429,8 +429,6 @@ input[type=text], input[type=email]
     margin: 4px 2px;
     cursor: pointer;
 }
-
-.
 		/*Artist_Page_CSS*/
 		
 table {
@@ -451,7 +449,7 @@ tr:nth-child(even) {
 
 .containerleftArtists {
     float: left;
-    width: 45%;
+    width: 40%;
     overflow: auto;
     margin-left: 5%
 }
@@ -476,8 +474,12 @@ tr:nth-child(even) {
 	font-size: 40px;
     font-family: fantasy;
     color: #3B6261;
-    list-style-image: none;
-	
+    list-style-image: none;	
+	margin-left: 10%;
+}
+
+.GImages {
+	margin-left: 5%;
 }
 
     /* People Pages CSS */
