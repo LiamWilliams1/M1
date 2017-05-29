@@ -449,8 +449,15 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 
+.containerleftArtists {
+    float: left;
+    width: 45%;
+    overflow: auto;
+    margin-left: 5%
+}
+
 .containerrightArtists{
-    width: 40%;
+    width: 50%;
     float: right;
     overflow: auto;
 }
@@ -465,6 +472,13 @@ tr:nth-child(even) {
 	margin-left: 55%;
 }
 
+.GConductors {
+	font-size: 40px;
+    font-family: fantasy;
+    color: #3B6261;
+    list-style-image: none;
+	
+}
 
     /* People Pages CSS */
 
