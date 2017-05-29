@@ -499,4 +499,9 @@ tr:nth-child(even) {
 	margin-left: 30%
 }
 
+.PageLinks {
+	margin-left: 20%;
+	margin-right: 20%;
+	border-style: ridge;
+}
 
