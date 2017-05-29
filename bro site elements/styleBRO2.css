@@ -488,4 +488,15 @@ tr:nth-child(even) {
 .ImgPos {
     margin-left: 25%;
     margin-right: 10%;
+	font-size: 20px;
 }
+
+.NameHeader {
+	font-size: 35px;
+    font-family: fantasy;
+    color: #3B6261;
+    list-style-image: none;
+	margin-left: 30%
+}
+
+
