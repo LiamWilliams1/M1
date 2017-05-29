@@ -392,9 +392,45 @@ input[type=text], input[type=email]
     overflow: auto;
     margin-left: 5%;
 }
-.buttondonate {
     
+		/*History Page CSS*/
+	
+.containerlefthistory {
+    float: left;
+    width: 60%;
+    overflow: auto;
+    margin-left: 5%
 }
+		
+.containerrighthistory {
+    float: right;
+    width: 30%;
+    overflow: auto;
+	text-align: center;
+}
+
+.historyheadings{
+    font-size: 35px;
+    font-family: fantasy;
+    color: #3B6261;
+    list-style-image: none;
+	text-align: center;
+}
+
+.memberbutton {
+	background-color: #57DCE3;
+    border: none;
+    color: white;
+    padding: 30px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.
 		/*Artist_Page_CSS*/
 		
 table {
