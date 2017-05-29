@@ -281,6 +281,24 @@ input[type=submit]:hover {
     margin-left: 84px;
 }
 
+.bodystyle1{
+    font-size: x-large;
+    font-weight: 800;
+    margin: 100px;
+    color: blue;
+ }
+
+.pstyle{
+    font-size: x-large;
+    font-weight: 800;
+    color: blue;
+}
+
+.goldlook{
+    color: #E67009;
+}
+
+
 
 
 
