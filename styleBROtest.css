@@ -95,8 +95,8 @@
     overflow: auto;
     margin-left: 15%;
     margin-top: 2%;
-    margin-right: 15%
-
+    margin-right: 15%;
+    margin-bottom: 2%
 }       
 .newsfeedheading{
     font-size: 20px;
@@ -108,6 +108,9 @@
     color: darkorange;
     font-weight: bolder;
     font-size: 16px
+}
+.newsthumb{
+    float:right;
 }
 .universaltext{
     font-size: 14px;
@@ -126,6 +129,16 @@
     right: 0;
     bottom: 0;
 }
+.containerleftnews {
+    float: left;
+    width: 65%;
+    overflow: auto;
+}
+.containerrightnews{
+    width: 35%;
+    float: right;
+    overflow: auto;
+}
 .centeringimage{
      align-content: center;
     margin-left: 20px;
@@ -139,5 +152,19 @@
     font-family: 'Arial', sans-serif;
     font-weight: lighter;
 }
-
-    
+#bottom{
+    border:1px solid;
+    width: 100%;
+    font-size: x-large;
+    text-align: center;
+    overflow: auto;
+}
+#copyright {
+    background-color: deepskyblue;
+    text-align: center;
+}
+.imgstyle{
+    height: 100px;
+    width: 100px;
+    border-color: grey;
+}
